@@ -6,8 +6,10 @@ public class FirstProgram {
 		int q=10;
 		if(q>10) {
 		System.out.println("Greater than 10"); }
+		if(q==10)
+			System.out.println("Equal to 10"); 
 		else {
-			System.out.println("Less than  or Equals to 10");  }
+			System.out.println("Less than 10");  }
 		
 
 	}
